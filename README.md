@@ -4,7 +4,7 @@
 [![package downloads](https://img.shields.io/npm/dm/@tiaanduplessis/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/get-euclidean-distance)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![package license](https://img.shields.io/npm/l/@tiaanduplessis/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/get-euclidean-distance)
-[![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/get-euclidean-distance.svg)](https://greenkeeper.io/)
 
 > Get distance between two coordinates using euclidean distance formula
 
