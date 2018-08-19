@@ -1,0 +1,27 @@
+{
+  "name": "get-euclidean-distance",
+  "version": "1.0.0",
+  "description": "Get distance between two coordinates using euclidean distance formula",
+  "main": "index.js",
+  "repository": "https://github/tiaanduplessis/get-euclidean-distance",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "files": [
+    "index.js",
+    "yarn.lock"
+  ],
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
