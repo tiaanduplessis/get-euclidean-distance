@@ -1,5 +1,5 @@
 {
-  "name": "get-euclidean-distance",
+  "name": "@tiaanduplessis/get-euclidean-distance",
   "version": "1.0.0",
   "description": "Get distance between two coordinates using euclidean distance formula",
   "main": "index.js",

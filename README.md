@@ -1,9 +1,9 @@
 
-# get-euclidean-distance
-[![package version](https://img.shields.io/npm/v/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/get-euclidean-distance)
-[![package downloads](https://img.shields.io/npm/dm/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/get-euclidean-distance)
+# @tiaanduplessis/get-euclidean-distance
+[![package version](https://img.shields.io/npm/v/@tiaanduplessis/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/get-euclidean-distance)
+[![package downloads](https://img.shields.io/npm/dm/@tiaanduplessis/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/get-euclidean-distance)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![package license](https://img.shields.io/npm/l/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/get-euclidean-distance)
+[![package license](https://img.shields.io/npm/l/@tiaanduplessis/get-euclidean-distance.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/get-euclidean-distance)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 > Get distance between two coordinates using euclidean distance formula
@@ -20,15 +20,15 @@
 This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). 
 
 ```sh
-$ npm install get-euclidean-distance
+$ npm install @tiaanduplessis/get-euclidean-distance
 $ # OR
-$ yarn add get-euclidean-distance
+$ yarn add @tiaanduplessis/get-euclidean-distance
 ```
 
 ## Usage
 
 ```js
-const getEuclideanDistance = require('get-euclidean-distance')
+const getEuclideanDistance = require('@tiaanduplessis/get-euclidean-distance')
 
 const p1 = {
   lat: 11,
