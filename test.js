@@ -1,4 +1,5 @@
 const getEuclideanDistance = require('./')
+const testNumerics = require('./test-numerics')
 
 test('should export function', () => {
   expect(getEuclideanDistance).toBeDefined()
@@ -29,4 +30,8 @@ test('should get distance between points', () => {
   expect(getEuclideanDistance(p1, p2, { xName: 'lat', yName: 'lng' })).toBe(2.8284271247461903)
   expect(getEuclideanDistance(p1, p2, { xName: 'lat', yName: 'lng' })).toBe(2.8284271247461903)
   expect(getEuclideanDistance(p3, p4)).toBe(2.8284271247461903)
+})
+
+test('should handle extreme finite deltas without changing ordinary behavior', () => {
+  testNumerics(getEuclideanDistance)
 })
