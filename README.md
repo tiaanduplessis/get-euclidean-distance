@@ -56,6 +56,12 @@ console.log(getEuclideanDistance(p3, p4)) // 2.8284271247461903
 
 ```
 
+## Numerical behavior
+
+Very large or small finite differences are rescaled when squaring would otherwise produce `Infinity` or zero. Ordinary finite, nonzero results and the existing `NaN`/`Infinity` behavior are unchanged. Calculations still use floating-point arithmetic: this is not a correctly rounded norm, and rounding very near `Number.MAX_VALUE` can produce either `Number.MAX_VALUE` or `Infinity` on either side of the exact overflow threshold.
+
+From a repository checkout, run the numerical regression checks without installing dependencies with `node test-numerics.js`.
+
 ## Contribute
 
 1. Fork it and create your feature branch: git checkout -b my-new-feature
